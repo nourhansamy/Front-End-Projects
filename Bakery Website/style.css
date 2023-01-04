@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "Alegreya";
+  src: url(alegreya/Alegreya[wght].ttf);
+}
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url(alegreya-sans/AlegreyaSans-Regular.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Alegreya";
+}
+p,
+button,
+span {
+  font-family: "Alegreya Sans";
+}
+* {
+  margin: 0;
+}
+#home {
+  height: 800px;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 90px;
+}
+#navSection {
+  height: 6%;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 20px;
+  /* position: fixed; */
+}
+#caption {
+  height: 94%;
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+/* #bakeryIcon {
+  width: 60%;
+  height: 100%;
+  float: left;
+} */
+#bakeryIcon {
+  width: 49.3%;
+  height: 100%;
+  display: inline-block;
+}
+#bakeryIcon img {
+  width: 25%;
+  margin-left: 150px;
+}
+#navbar {
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+  margin-left: 120px;
+  vertical-align: middle;
+}
+#navbar a {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #e0dcd2;
+}
+#caption h1 {
+  font-size: 76px;
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#caption p {
+  font-size: 22px;
+  padding: 0 50px;
+  width: 650px;
+  margin: auto;
+}
+#caption button {
+  padding: 18px 25px;
+  margin-top: 30px;
+  margin-right: 7px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+}
+#learnMore {
+  background-color: #8d7753;
+  border: none;
+}
+#contactUs {
+  background-color: transparent;
+  border: 2px solid white;
+}
+#whoAreWeImg {
+  width: 49.2%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#whoAreWeImg img {
+  width: 70%;
+  padding-left: 150px;
+}
+#whoAreWe {
+  margin-bottom: 90px;
+}
+#whoAreWeInfo {
+  width: 49.2%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+#whoAreWeInfo h2 {
+  margin-left: 20px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #303030;
+  font-weight: 100;
+}
+#whoAreWeInfo p {
+  margin-left: 20px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #696969;
+}
+.iconImages {
+  margin-bottom: 13px;
+}
+.iconImages span {
+  color: #696969;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#ourLocation {
+  background-color: #f8f8f8;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  padding-bottom: 100px;
+}
+#ourLocationInfo {
+  width: 59.2%;
+  display: inline-block;
+  margin-top: 50px;
+  vertical-align: top;
+}
+#ourLocationImg {
+  width: 40%;
+  display: inline-block;
+}
+#ourLocationImg img {
+  width: 90%;
+}
+#ourLocationInfo p {
+  width: 63%;
+  line-height: 30px;
+  padding-left: 150px;
+  font-size: 17px;
+  color: #696969;
+  margin-bottom: 20px;
+}
+#ourLocationInfo h2 {
+  padding-left: 150px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #303030;
+  font-weight: 100;
+}
+#ourBakery {
+  text-align: center;
+  margin-bottom: 90px;
+}
+#ourBakery h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #303030;
+  font-weight: 100;
+}
+#ourBakery p {
+  line-height: 30px;
+  margin-bottom: 60px;
+  font-size: 17px;
+  color: #a4a4a4;
+}
+.bakeryProduct {
+  float: left;
+  width: 33.33%;
+}
+.bakeryProduct img {
+  width: 91%;
+  margin-bottom: 30px;
+}
+.bakeryProduct h3 {
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-weight: 100;
+}
+.bakeryProduct p {
+  padding: 0 20px;
+}
+#bakeryProducts {
+  width: 84%;
+  margin: auto;
+}
+.clr {
+  clear: both;
+}
+#contactInfo {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+#contactInfo h2 {
+  margin-bottom: 25px;
+  padding: 0 130px;
+  font-size: 30px;
+  color: #303030;
+  font-weight: 100;
+}
+#contactInfo p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  padding: 0 130px;
+  color: #686868;
+}
+#contactInfoSection {
+  background-color: #f8f8f8;
+  padding-bottom: 80px;
+  /* margin-bottom: 90px; */
+  height: 500px;
+  padding-top: 100px;
+}
+#locationMap {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+#locationMap iframe {
+  width: 75%;
+  padding-left: 50px;
+}
+#contactIcons {
+  padding: 0 130px;
+}
+#footer {
+  background-color: #403d38;
+  height: 330px;
+  /* overflow: auto; */
+  padding-top: 70px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
+.footerItems {
+  width: 20%;
+  float: left;
+  margin-right: 55px;
+  /* background-color: teal; */
+}
+.footerItems h4,
+.footerItemsContact h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "Alegreya";
+  font-weight: 100;
+}
+.footerItems p {
+  font-size: 16px;
+  color: #969696;
+  margin-top: 15px;
+  line-height: 30px;
+}
+.borderLine {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#contactDetailsIcons {
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(images/contact-details-map.png); */
+  background-image: url(images/contact-details-map.png);
+  /* background-color: rgba(0,0,0,0); */
+  /* opacity: 0.2; */
+  background-repeat: no-repeat;
+  color: #969696;
+  background-position: bottom;
+  /* background-size: 100% 70%; */
+  /* background-size: cover; */
+}
+
+.contactIcons {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#bakeryLogo {
+  background-color: #353330;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+#bakeryLogo p {
+  font-size: 15px;
+  color: rgb(119, 119, 119);
+  margin-top: 15px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.copyRights img {
+  width: 50px;
+  height: 45px;
+}
