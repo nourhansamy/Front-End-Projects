@@ -1,0 +1,66 @@
+body {
+  background-color: #24353f;
+  height: 100vh;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#smart-login-system {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0) !important;
+  margin-top: 48px !important;
+  width: 830px;
+}
+
+#smart-login-system h1 {
+  color: #17a2b8;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 8px;
+}
+.form-control {
+  margin: 16px 0px;
+  background-color: transparent !important;
+  color: white !important;
+}
+.form-control::placeholder {
+  color: #b6b6b6;
+  opacity: 1;
+}
+#loginBtn,
+#signUpBtn {
+  background-color: transparent !important;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+}
+#loginBtn:hover,
+#signUpBtn:hover {
+  background-color: #17a2b8 !important;
+  color: #fff !important;
+}
+#signUpAnchor:hover,
+#signInAnchor:hover {
+  text-decoration: underline !important;
+}
+.alert {
+  color: #dc3545 !important;
+}
+#header {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0) !important;
+}
+#logoutBtn {
+  border: 1px solid #ffc007;
+  color: #b6b6b6;
+}
+#logoutBtn:hover {
+  color: #fff;
+  background-color: #ffc007 !important;
+}
+.welcome {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0) !important;
+  width: 700px !important;
+  height: 170px !important;
+  text-align: center;
+}
+#welcomeMsg {
+  color: #17a2b8;
+}
