@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bookmarkTitle {
+  margin: 29.25px 0;
+  font-weight: 700;
+  font-size: 29px;
+  color: #aaaaaa;
+}
+
+.line {
+  border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 15px;
+}
+
+.container h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  margin: 19.92px 0;
+}
+
+.content {
+  padding: 30px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+label {
+  color: #333333;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+input {
+  width: 75.7% !important;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #1167c4 !important;
+}
+
+.btn-danger {
+  background-color: #910004 !important;
+}
+
+.btn-warning {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bookmark {
+  background-image: linear-gradient(#eee, #fff);
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.bookmark h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+}

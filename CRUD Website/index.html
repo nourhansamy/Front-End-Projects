@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bookmark</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3 id="bookmarkTitle">Bookmarker</h3>
+        <div class="line"></div>
+      </header>
+      <section>
+        <div class="content">
+          <h4>Bookmark your favorite sites</h4>
+          <label for="siteName">Site Name</label>
+          <input
+            type="text"
+            name="siteName"
+            id="siteName"
+            placeholder="Bookmark Name"
+            class="form-control"
+          />
+          <div
+            class="alert alert-danger d-none mt-3 w-75 m-auto p-2"
+            id="alertName"
+          >
+            The bookmark name should be between 4 - 40 characters including
+            underscore ONLY. It should not start with digits.
+          </div>
+          <label for="siteUrl">Site URL</label>
+          <input
+            type="text"
+            name="siteUrl"
+            id="siteUrl"
+            placeholder="Website URL"
+            class="form-control"
+          />
+          <div
+            class="alert alert-danger d-none mt-3 w-75 m-auto p-2"
+            id="alertURL"
+          >
+            The bookmark URL should start with https:// or http:// in the
+            website name eg. https://stackoverflow.com. URL can include
+            undescore, dashes, forward slash and dot ONLY
+          </div>
+          <button class="btn btn-primary mt-3" id="submitBtn" disabled>
+            Submit
+          </button>
+          <input
+            type="text"
+            name="searchInput"
+            id="searchInput"
+            placeholder="Search By Bookmark Name"
+            class="form-control mt-4"
+          />
+        </div>
+      </section>
+      <div id="Bookmarks"></div>
+      <div class="line mt-4"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
