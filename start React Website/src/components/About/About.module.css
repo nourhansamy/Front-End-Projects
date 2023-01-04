@@ -1,0 +1,18 @@
+.header {
+  margin-top: 40px;
+  padding: 96px 0;
+  background-color: #19bc9c;
+}
+.title {
+  color: white !important;
+  text-align: center;
+}
+.about {
+  margin: 100px 0px;
+}
+.cell > p {
+  font-weight: 300 !important;
+  font-size: 20px !important;
+  line-height: 30px;
+  color: #fff;
+}

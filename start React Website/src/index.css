@@ -1,0 +1,86 @@
+* {
+  font-family: "Montserrat";
+  /* overflow: scroll; */
+}
+
+nav {
+  background-color: #2c3d4f;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 28px !important;
+  line-height: 42px;
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #19bc9b !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px;
+  margin: 16px;
+}
+
+.divider {
+  width: 112px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 0px 16px;
+}
+
+.dividerLine {
+  margin: 20px 0px 24px 0px;
+}
+
+h2 {
+  color: #2c3e50 !important;
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 40px;
+}
+.divider2 {
+  width: 112px;
+  height: 4px;
+  background-color: #2c3d4f;
+  border-radius: 16px;
+  margin: 0px 16px;
+}
+
+.divider2Icon {
+  color: #2c3d4f;
+}
+.item {
+  border-radius: 0.5rem;
+  background-color: red;
+  overflow: hidden;
+  position: relative;
+}
+
+.caption {
+  background-color: rgba(26, 188, 156, 0.9);
+  position: absolute;
+  inset: 0;
+  z-index: 999;
+  opacity: 0 !important;
+  transition: 0.3s all;
+}
+.item:hover .caption {
+  opacity: 1 !important;
+}
+
+.dividerAbout {
+  width: 112px;
+  height: 4px;
+  background-color: white;
+  border-radius: 16px;
+  margin: 0px 16px;
+}
+.divider2About {
+  color: white;
+}

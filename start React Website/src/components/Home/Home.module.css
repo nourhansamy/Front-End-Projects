@@ -1,0 +1,22 @@
+.homePage {
+  background-color: #19bc9c;
+  text-align: center;
+  padding: 200px 0px 96px 0;
+}
+.homePage img {
+  width: 15rem !important;
+  margin-bottom: 48px;
+}
+h1 {
+  font-weight: 700 !important;
+  font-size: 64px !important;
+  line-height: 56px;
+  color: #fff;
+}
+.homeParagraph {
+  font-weight: 300 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  margin: auto;
+  color: #fff;
+}

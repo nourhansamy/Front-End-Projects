@@ -1,0 +1,26 @@
+.footerColor {
+  background-color: #2c3d4f;
+  padding: 80px 0 !important;
+}
+.footerDarkColor {
+  background-color: #1a252f;
+}
+h4 {
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 29px;
+  margin-bottom: 24px !important;
+}
+.footerParagraph {
+  font-weight: 300 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  width: 275px;
+  margin: auto;
+}
+/* . {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50%;
+} */
