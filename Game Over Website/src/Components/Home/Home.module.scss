@@ -1,0 +1,39 @@
+@import '../../index.scss';
+.grayColor {
+    color: $fontColor;
+}
+.grayBgColor {
+    background-color: $fontColor;
+}
+.gameHome {
+    background-image: url('../../images/home.png');
+    background-repeat: no-repeat;
+    background-color: #1c1e22;
+    background-position: top;
+    background-size: contain;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,.6);
+    padding: 4rem 2rem;
+    color: $fontColor;
+}
+.blueColor {
+    color: #48acff !important;
+}
+.blueBgColor {
+    color: #fff !important;
+    background-color: #4799eb !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+
+}
+.bgColor {
+    background-color:#32383e !important;
+}
+.grayIcon {
+    background-color: #7a8288 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    padding: 1px 7px 2px !important
+}

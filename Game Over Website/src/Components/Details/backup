@@ -1,0 +1,27 @@
+{
+    gameDetails.screenshots ? <div className="screenshots mt-3 mb-3">
+        <h4 className={`${styles.grayColor} mb-3`}>{gameDetails.title} Screenshots</h4>
+        {/* <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel"> */}
+        {/* <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true"> */}
+        <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+                {gameDetails.screenshots.map((item, index) => {
+                    // console.log('index', index);
+                    if (index === 0) {
+                        return (
+                            <div className="carousel-item active" data-bs-interval="2000" key={index}>
+                                <img className="d-block w-100" src={item.image} alt={`Slide ${index + 1} `} />
+                            </div>)
+                    }
+                    else {
+                        return (
+                            <div className="carousel-item" data-bs-interval="2000" key={index}>
+                                <img className="d-block w-100" src={item.image} alt={`Slide ${index + 1}`} />
+                            </div>
+                        )
+                    }
+                })}
+            </div>
+        </div>
+    </div> : ''
+}
