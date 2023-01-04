@@ -1,0 +1,794 @@
+.max-width {
+  max-width: 870px !important;
+}
+
+.white-color {
+  color: white !important;
+}
+
+.home .nav-item:hover {
+  cursor: pointer;
+}
+.home .nav-item {
+  margin: 25px 20px 0 20px !important;
+}
+.home .nav-item a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  color: black !important;
+  line-height: 24px;
+  font-weight: 400 !important;
+  padding: 0px !important;
+}
+.navbar {
+  padding: 0px;
+  padding-bottom: 10px !important;
+}
+nav {
+}
+.gray-color {
+  background-color: #f7f7f7 !important;
+}
+
+.home {
+  background-image: url(../images/bg.jpg);
+  background-position: 0px 41.2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-layer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.social-icons a {
+  color: white !important;
+  background-color: black !important;
+  margin-top: 30px;
+}
+
+.home-content h1::after {
+  content: "|";
+  animation: typing 10s infinite linear;
+}
+
+.about-me,
+.services,
+.portfolio,
+.clients,
+.contact-us {
+  padding: 100px 0 70px 0;
+}
+
+.works {
+  padding: 100px 0;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #343434 !important;
+  line-height: 44px;
+  font-weight: 900;
+  /* margin-bottom: 80px; */
+}
+
+.progress {
+  height: 25px;
+  background-color: #f4f4f4 !important;
+}
+
+.progress-bar {
+  background-color: black !important;
+}
+
+.contact:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.download:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.download,
+.contact {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px !important;
+  /* color: #343434 !important; */
+  line-height: 19px;
+  font-weight: 400 !important;
+  padding: 10px 30px;
+}
+.dots {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-image: url(../images/dots.png);
+  top: 100px;
+  left: 100px;
+  z-index: -1;
+}
+
+.section-title h2 {
+  position: relative;
+}
+
+.section-title {
+  margin-bottom: 80px !important;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 10px;
+  top: 105%;
+  right: 0;
+}
+
+.service-paragraph {
+  padding: 0 20px;
+}
+
+.service-item {
+  padding: 50px 20px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.service-item:hover .icon {
+  background-color: black !important;
+  color: white !important;
+}
+
+.portfolio .nav-item button.active,
+.portfolio .nav-item button {
+  color: black !important;
+  background-color: transparent !important;
+  position: relative;
+  margin: 0px 15px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px !important;
+  color: #222222 !important;
+  line-height: 23px;
+  font-weight: 700 !important;
+}
+
+.portfolio .nav-pills {
+  margin-bottom: 50px !important;
+}
+
+.portfolio .nav-item button::before {
+  content: "";
+  background-color: black !important;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  top: 95%;
+  left: 0px;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.portfolio .nav-item button.active::before {
+  content: "";
+  background-color: black !important;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 95%;
+  left: 0px;
+  visibility: visible;
+}
+
+.portfolio .nav-item button:hover::before {
+  width: 100%;
+  visibility: visible;
+}
+
+.portfolio-layer {
+  margin: auto;
+  text-align: center;
+  top: 50px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  width: 95%;
+  height: 95%;
+  transition: all 1s;
+}
+
+.portfolio-layer-content a {
+  color: white !important;
+}
+
+.portfolio-item:hover .portfolio-layer {
+  top: 10px;
+  opacity: 1 !important;
+}
+
+/* .portfolio-layer-content .portfolio-icons {
+  transition: all 1s;
+  transition-delay: 1s;
+} */
+
+.portfolio-item:hover .portfolio-layer-content h5 {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1 !important;
+}
+
+.portfolio-layer-content h5 {
+  top: 35%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0 !important;
+  transition: all 1s;
+  transition-delay: 1s;
+}
+
+.portfolio-icons {
+  bottom: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  transition-delay: 1s;
+  opacity: 0 !important;
+}
+
+.portfolio-item:hover .portfolio-icons {
+  bottom: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1 !important;
+}
+
+.portfolio-icons :hover i {
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid black;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+}
+
+.carousel-indicators button.active {
+  background-color: black !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.carousel-indicators button {
+  background-color: black !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  opacity: 0.2 !important;
+}
+
+.carousel-item h6 {
+  margin-bottom: 60px;
+}
+
+.cards {
+  padding-bottom: 60px !important;
+}
+
+.card a {
+  color: black !important;
+}
+
+footer {
+  padding: 30px;
+  background-color: #1c1c1c !important;
+}
+
+footer p {
+  margin: 0 !important;
+}
+
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #748182 !important;
+  line-height: 21px;
+  font-weight: 400;
+  word-spacing: 2px;
+}
+
+.contact-form {
+  width: 75%;
+  margin: auto;
+}
+
+.contact-form button {
+  padding: 10px 40px !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  background-color: #343434 !important;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+input,
+textarea {
+  background-color: #f4f4f4 !important;
+  border: none !important;
+}
+
+.contact-form i {
+  font-size: 25px !important;
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.contact-item:hover .contact-icon {
+  background-color: black !important;
+  color: white !important;
+}
+
+.contact-item {
+  padding-bottom: 80px;
+}
+
+.contact-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #343434 !important;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.contact-item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #748182 !important;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.blog {
+  padding: 100px 0;
+}
+
+.card-body h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #888888 !important;
+  line-height: 13px;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #343434 !important;
+  line-height: 32px;
+  font-weight: 800;
+  padding: 0 10px;
+}
+
+.card-body a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #343434 !important;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+}
+
+.card-body a::after {
+  content: "";
+  width: 100%;
+  top: 105%;
+  position: absolute;
+  height: 2px;
+  left: 0px;
+  background-color: #343434;
+}
+
+.card-body {
+  padding: 30px 15px;
+}
+
+.card img {
+  transition: all 0.5s;
+}
+
+.card-img {
+  overflow: hidden;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+}
+
+.clients-item h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #343434 !important;
+  line-height: 33px;
+  font-weight: 900;
+}
+
+.clients-item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #748182 !important;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.works .item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #748182 !important;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.works .carousel-item h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #343434 !important;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.works .carousel-item h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px !important;
+  color: #888888 !important;
+  line-height: 17px;
+  font-weight: 900 !important;
+}
+
+.services .service-item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px !important;
+  color: #343434 !important;
+  line-height: 20px;
+  font-weight: 800 !important;
+}
+
+.services .service-item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  color: #748182 !important;
+  line-height: 22px;
+  font-weight: 400 !important;
+}
+
+.about-part > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px !important;
+  color: #343434 !important;
+  line-height: 33px;
+  font-weight: 800 !important;
+  margin-bottom: 5px !important;
+}
+
+.about-part > h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  color: #999999 !important;
+  line-height: 20px;
+  font-weight: 400 !important;
+  margin-bottom: 20px !important;
+  padding: 0px !important;
+  letter-spacing: 2px;
+}
+
+.about-part > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px !important;
+  color: #748182 !important;
+  line-height: 24px;
+  font-weight: 400 !important;
+}
+
+.about-part > span {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px !important;
+  color: #748182 !important;
+  line-height: 24px;
+  font-weight: 700 !important;
+}
+
+.progress {
+  margin-top: 30px !important;
+}
+.progress-bar p {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 13px !important;
+  /* color: #ffffff !important; */
+}
+.home h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px !important;
+  color: #ffffff !important;
+  line-height: 55px;
+  font-weight: 800 !important;
+  margin-bottom: 10px !important;
+}
+.home h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px !important;
+  color: #ffffff !important;
+  line-height: 72px;
+  font-weight: 400 !important;
+  padding: 12px 0 !important;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px !important;
+  line-height: 26px;
+  font-weight: 800 !important;
+  padding-top: 20px !important;
+}
+/* Developer, Designer */
+@keyframes typing {
+  0% {
+    content: "Larry Daniels|";
+  }
+
+  15% {
+    content: "Larry Daniels|";
+  }
+
+  16% {
+    content: "Larry Daniel|";
+  }
+
+  17% {
+    content: "Larry Danie|";
+  }
+
+  18% {
+    content: "Larry Dani|";
+  }
+
+  19% {
+    content: "Larry Dan|";
+  }
+
+  20% {
+    content: "Larry Da|";
+  }
+
+  21% {
+    content: "Larry D|";
+  }
+
+  22% {
+    content: "Larry |";
+  }
+
+  23% {
+    content: "Larry|";
+  }
+
+  24% {
+    content: "Larr|";
+  }
+
+  25% {
+    content: "Lar|";
+  }
+
+  26% {
+    content: "La|";
+  }
+
+  27% {
+    content: "L|";
+  }
+
+  28% {
+    content: "|";
+  }
+
+  29% {
+    content: "D|";
+  }
+
+  31% {
+    content: "De|";
+  }
+
+  33% {
+    content: "Dev|";
+  }
+
+  35% {
+    content: "Deve|";
+  }
+
+  37% {
+    content: "Devel|";
+  }
+
+  39% {
+    content: "Develo|";
+  }
+
+  41% {
+    content: "Develop|";
+  }
+
+  43% {
+    content: "Develope|";
+  }
+
+  45% {
+    content: "Developer|";
+  }
+
+  46% {
+    content: "Developer|";
+  }
+
+  47% {
+    content: "Developer|";
+  }
+
+  48% {
+    content: "Developer|";
+  }
+
+  49% {
+    content: "Developer|";
+  }
+
+  50% {
+    content: "Developer|";
+  }
+
+  51% {
+    content: "Develope|";
+  }
+
+  52% {
+    content: "Develop|";
+  }
+
+  53% {
+    content: "Develo|";
+  }
+
+  54% {
+    content: "Devel|";
+  }
+
+  55% {
+    content: "Deve|";
+  }
+
+  56% {
+    content: "Dev|";
+  }
+
+  57% {
+    content: "De|";
+  }
+
+  58% {
+    content: "D|";
+  }
+
+  59% {
+    content: "|";
+  }
+
+  60% {
+    content: "D|";
+  }
+
+  61% {
+    content: "D|";
+  }
+
+  63% {
+    content: "De|";
+  }
+
+  65% {
+    content: "Des|";
+  }
+
+  67% {
+    content: "Desi|";
+  }
+
+  69% {
+    content: "Desig|";
+  }
+
+  71% {
+    content: "Design|";
+  }
+
+  73% {
+    content: "Designe|";
+  }
+
+  75% {
+    content: "Designer|";
+  }
+
+  77% {
+    content: "Designer|";
+  }
+
+  79% {
+    content: "Designer|";
+  }
+
+  80% {
+    content: "Designer|";
+  }
+
+  81% {
+    content: "Designer|";
+  }
+
+  82% {
+    content: "Designer|";
+  }
+
+  83% {
+    content: "Designe|";
+  }
+
+  84% {
+    content: "Design|";
+  }
+
+  86% {
+    content: "Desig|";
+  }
+
+  87% {
+    content: "Desi|";
+  }
+
+  88% {
+    content: "Des|";
+  }
+
+  92% {
+    content: "De|";
+  }
+
+  95% {
+    content: "D|";
+  }
+
+  100% {
+    content: "|";
+  }
+}
