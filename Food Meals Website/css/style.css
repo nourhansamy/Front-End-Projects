@@ -1,0 +1,248 @@
+body {
+  overflow: visible;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#side-bar {
+  width: 60px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: #ffff;
+  text-align: center;
+}
+
+#logo-image {
+  padding: 25px 0;
+}
+
+#logo {
+  height: 48px;
+}
+
+#icons {
+  padding: 25px 0;
+}
+
+.meal-layer,
+.category-layer {
+  opacity: 0.7;
+  bottom: 0;
+  cursor: pointer;
+}
+
+#side-bar-open {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: black;
+  text-align: center;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  background-clip: padding-box;
+  border: 0.05em solid #eeeeee;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+#side-bar-open a {
+  color: #ffff;
+}
+
+#side-bar-open ul {
+  padding-left: 30px;
+}
+
+#side-bar-open li {
+  padding-top: 25px;
+  text-align: start;
+}
+
+.ingredients {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+.ingredients li {
+  background-color: #d4edd9;
+  color: #155724;
+  margin: 16px 4px;
+  width: fit-content;
+  display: inline-block;
+  /* border: 1px solid transparent; */
+  padding: 4px;
+}
+
+.tags {
+  list-style: none;
+  /* padding: 0px; */
+  margin-bottom: 16px !important;
+}
+
+.tags li {
+  background-color: #f8d7d9;
+  color: #934a4e;
+  margin: 16px 4px;
+  width: fit-content;
+  display: inline;
+  /* border: 1px solid transparent; */
+  padding: 4px;
+}
+
+.source-youtube {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+.source {
+  background-color: #28a745 !important;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.youtube {
+  background-color: #f70000 !important;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.area {
+  margin-bottom: 16px;
+}
+
+.meal-layer,
+.category-layer {
+  overflow: hidden;
+}
+
+.category-layer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+}
+
+.area-icon {
+  color: #e65a50ab;
+}
+
+.ingredient-icon {
+  color: #9ee650ab;
+}
+
+.ingredient p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.search-part {
+  padding-top: 30px;
+  position: fixed;
+  left: 12.5%;
+  z-index: 999;
+  top: 0;
+}
+
+.search-name input,
+.search-letter input,
+#contact-us-section input {
+  border: none;
+  border-radius: 0%;
+  background-color: black;
+}
+
+#contact-us {
+  overflow: hidden;
+}
+
+#contact-us-section input {
+  background-color: transparent;
+  box-shadow: 0 10px 16px rgba(255, 255, 255, 0.2) !important;
+  /* box-shadow: 0 5px 5px red !important; */
+}
+
+.submit {
+  background-color: transparent;
+  color: #dc3545 !important;
+  border: 1px solid #dc3545 !important;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: #c9303f;
+  color: white !important;
+  transition: all 0.5s;
+}
+
+.side-bar-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+a {
+  cursor: pointer;
+}
+
+.social-icons {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.social-icons i {
+  color: #212529 !important;
+  margin: 0px 5px;
+}
+
+.copy-rights {
+  color: #999999;
+  margin: 30px 0px;
+}
+
+.list-unstyled {
+  position: relative;
+  /* top: 300px; */
+}
+
+.side-bar-list {
+  position: relative;
+}
+
+.side-bar-list li {
+  position: absolute;
+  top: 500px;
+  opacity: 0;
+}
+
+#loading {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: none;
+}

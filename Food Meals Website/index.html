@@ -1,0 +1,191 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <title>Yummy</title>
+</head>
+
+<body>
+  <div id="loading">
+    <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+  </div>
+  <div id="side-bar-open" class=" d-flex justify-content-between flex-column">
+    <div>
+      <ul class="list-unstyled side-bar-list">
+        <li>
+          <a onclick='searchBar()'>Search</a>
+        </li>
+        <li>
+          <a onclick='getCategories()'>Categories</a>
+        </li>
+        <li>
+          <a onclick='getAreas()'>Area</a>
+        </li>
+        <li>
+          <a onclick='getIngredients()'>Ingredients</a>
+        </li>
+        <li>
+          <a onclick='getContactUs()'>Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="social-icons">
+      <a><i class="fab fa-facebook-f"></i></a>
+      <a><i class="fab fa-twitter"></i></a>
+      <a><i class="fas fa-globe"></i></a>
+      <div class="copy-rights">
+        Copyright Â© 2019 All Rights Reserved.
+      </div>
+    </div>
+  </div>
+  <div id="side-bar" class="d-flex flex-column justify-content-between">
+    <div id="logo-image">
+      <img id="logo" src="./images/logo.png" alt="Logo">
+    </div>
+    <div id="settings-icon">
+      <a><i class="fa-solid fa-bars fa-2x text-black settings"></i></a>
+      <a><i class="fa fa-align-justify fa-times fa-2x text-black close d-none"></i></a>
+    </div>
+    <div id="icons">
+      <a><i class="fas fa-globe d-block mb-2 text-black"></i></a>
+      <a><i class="fas fa-share-alt text-black"></i></a>
+    </div>
+  </div>
+  <section id="all-meals-section" class="bg-black py-5">
+    <div class="container w-75 mt-5 pt-5">
+      <div class="row meals gy-4">
+      </div>
+    </div>
+  </section>
+  <section id="meal-recipe" class="bg-black py-5">
+    <div class="container w-75 mt-5 pt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="meal-image">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="instructions text-white">
+          </div>
+          <h6 class="text-white area">Area: <span class="area-value"></span></h6>
+          <h6 class="text-white area">Category: <span class="category-value"></span></h6>
+          <h3 class="text-white mb-2">Recipes :</h3>
+          <ul class="ingredients">
+          </ul>
+          <h3 class="text-white my-2 mx-1 p-1">Tags :</h3>
+          <ul class="tags my-2 mx-1 p-1">
+          </ul>
+          <a class="btn source" target="_blank">Source</a>
+          <a class="btn youtube" target="_blank">Youtube</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="categories-section" class="bg-black py-5">
+    <div class="container w-75 mt-5 pt-5">
+      <div class="row categories gy-4">
+      </div>
+    </div>
+  </section>
+  <section id="areas-section" class="bg-black py-5">
+    <div class="container w-75 mt-5 pt-5">
+      <div class="row areas gy-4">
+      </div>
+    </div>
+  </section>
+  <section id="ingredients-section" class="bg-black py-5">
+    <div class="container w-75 mt-5 pt-5">
+      <div class="row ingredients gy-4">
+      </div>
+    </div>
+  </section>
+  <section id="search-section" class="bg-black vh-100">
+    <div class="container w-75 search-part">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3 search-name">
+            <input type="text" class="form-control border-bottom text-center bg-black text-white" id="name"
+              placeholder="Search By Name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3 search-letter">
+            <input type="text" class="form-control border-bottom text-center bg-black text-white" maxlength="1"
+              id="name" placeholder="Search By First Letter">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact-us-section" class="bg-black vh-100 py-5">
+    <div class="container w-50 mt-5 pt-5">
+      <h2 class="text-white text-center mb-5">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3 name">
+            <input type="text" class="form-control border-bottom text-center bg-black text-white shadow" id="name"
+              placeholder="Enter Your Name">
+            <div class="alert alert-danger mt-3 p-2 text-center" id="name-alert">Special Characters and Numbers not
+              allowed</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3 email">
+            <input type="email" class="form-control border-bottom text-center bg-black text-white shadow" id="email"
+              placeholder="Enter Your Email">
+            <div class="alert alert-danger mt-3 p-2 text-center" id="email-alert">Enter valid email. *Ex: xxx@yyy.zzz
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3 phone">
+            <input type="text" class="form-control border-bottom text-center bg-black text-white shadow" id="phone"
+              placeholder="Enter Your Phone">
+            <div class="alert alert-danger mt-3 p-2 text-center" id="phone-alert">Enter valid Phone Number</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3 age">
+            <input type="text" class="form-control border-bottom text-center bg-black text-white shadow" id="age"
+              placeholder="Enter Your Age">
+            <div class="alert alert-danger mt-3 p-2 text-center" id="age-alert">Enter valid Age</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3 password">
+            <input type="password" class="form-control border-bottom text-center bg-black text-white shadow"
+              id="password" placeholder="Enter Password">
+            <div class="alert alert-danger mt-3 p-2 text-center" id="password-alert">
+              Enter valid password *Minimum eight characters, at least one letter and one number:*
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3 confirm-password">
+            <input type="password" class="form-control border-bottom text-center bg-black text-white shadow"
+              id="confirm-password" placeholder="Confirm Password">
+            <div class="alert alert-danger mt-3 p-2 text-center" id="confirm-password-alert">
+              Password is not matching
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="mb-3 text-center">
+            <button class="btn submit disabled">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
